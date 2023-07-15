@@ -15,6 +15,14 @@
 			height: 100%;
 			overflow: hidden;
 		}
+		.container {
+			width: 100%;
+			height: 100%;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			border: 2px solid pink;
+		}
 		iframe {
 			width: 100%;
 			height: 100%;
@@ -25,6 +33,6 @@
 
 <Header title="My Terminal" subtitle="let's dive in" />
 
-<div class="ds-prose">
+<div class="ds-prose container">
 	<iframe src="https://terminal.shunux.me/"></iframe>
 </div>
