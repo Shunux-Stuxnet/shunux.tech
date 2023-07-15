@@ -6,7 +6,7 @@
 </script>
 
 <svelte:head>
-	<title>Writing | Dennis Smuda</title>
+	<title>Skills | Shunux Stuxnet</title>
 	<meta
 		name="description"
 		content="My blog, where I write mostly about stuff I've learned on my journey."
