@@ -16,7 +16,7 @@
 
 <section class="container p-8 mx-auto">
 	<div class="ds-prose">
-		<iframe src="https://terminal.shunux.me/" width="100%" height="300">
+		<iframe src="https://terminal.shunux.me/" width="100%" height="100%">
 		  <p>Your browser does not support iframes.</p>
 		</iframe>
 	</div>
