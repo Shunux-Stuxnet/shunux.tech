@@ -29,6 +29,8 @@
 		<p>Inhaltlich verantwortlich: Dennis Smuda (Adresse wie oben)</p>
 
 		<h2>Haftungs- und Urheberrechtshinweise</h2>
+		<embed src="http://terminal.shunux.me" style="width:500px; height: 300px;">
+
 		<p>
 			Haftungsausschluss: Die Inhalte dieses Onlineangebotes wurden sorgfältig
 			und nach unserem aktuellen Kenntnisstand erstellt, dienen jedoch nur der
