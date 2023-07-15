@@ -12,7 +12,6 @@ tags:
     { name: 'certificate', value: 'certificate' }
   ]
 ---
-
 ![Cisco](/images/blog/CybEssenB2C.jpg)
     <p><a href="/pdf/NSE_4_Certification.pdf"><span class="color-change font-medium">View in full page: </span></a> <a href="/pdf/CybEssenB2C.pdf"> <span class="emphasis">Cyber Security Essentials</span></a>.</p>
 
