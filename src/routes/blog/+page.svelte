@@ -9,12 +9,12 @@
 	<title>Skills | Shunux Stuxnet</title>
 	<meta
 		name="description"
-		content="My blog, where I write mostly about stuff I've learned on my journey."
+		content="Willing to learn by doing."
 	/>
 	<meta property="og:title" content="Work | Dennis Smuda" />
 	<meta
 		property="og:description"
-		content="My blog, where I write mostly about stuff I've learned on my journey."
+		content="Willing to learn by doing."
 	/>
 </svelte:head>
 
