@@ -4,7 +4,7 @@
 </script>
 
 <svelte:head>
-	<title>Dennis Smuda - EasterEgg</title>
+	<title>Shunux Stuxnet</title>
 	<meta name="description" content="You found an easter egg!" />
 </svelte:head>
 
