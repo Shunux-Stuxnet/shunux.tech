@@ -17,7 +17,7 @@
 						coder/ethical hacker/developer
 					</span>
 					<span> based in </span>
-					<span class="german-color-change">INDIA 🇮🇳ॐ</span>
+					<span class="german-color-change">INDIA 🇮🇳</span>
 					<a href="/projects">doing 👨🏻‍💻</a> several stuffs and
 					<a href="/work">skilling ✏️</a> for the competitive world. Feel free to
 					<a class="whitespace-nowrap" href="mailto:nitya.nandjha2020@vitbhopal.ac.in">
