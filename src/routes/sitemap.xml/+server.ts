@@ -2,7 +2,7 @@ import type { RequestHandler } from '@sveltejs/kit'
 import type { PostMeta } from '../api/blog/+server'
 
 // Credits: https://scottspence.com/posts/make-a-sitemap-with-sveltekit
-const website = 'https://dennissmuda.com'
+const website = 'https://shunux.me'
 
 export const GET: RequestHandler = async ({ fetch }) => {
 	const res = await fetch(`/api/blog`)
