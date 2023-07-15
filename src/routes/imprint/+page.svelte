@@ -3,21 +3,19 @@
 </script>
 
 <svelte:head>
-	<title>Impressum | Dennis Smuda</title>
-	<meta name="description" content="Imprint | legally required content." />
-	<meta property="og:title" content="Impressum - Dennis Smuda" />
+	<title>Terminal | Shunux Stuxnet</title>
+	<meta name="description" content="Terminal | Shunux Stuxnet" />
+	<meta property="og:title" content="Terminal | Shunux Stuxnet" />
 	<meta
 		property="og:description"
-		content="Impressum | legally required content."
+		content="Terminal | Shunux Stuxnet"
 	/>
 </svelte:head>
 
-<Header title="Impressum" subtitle="muss halt" />
-
-<section class="container p-8 mx-auto">
+<Header title="My Terminal" subtitle="let's dive in" />
 	<div class="ds-prose">
 		<iframe src="https://terminal.shunux.me/" width="100%" height="100%">
-		  <p>Your browser does not support iframes.</p>
+		  <p>I guess you need to allow javascript.</p>
 		</iframe>
 	</div>
-</section>
+
