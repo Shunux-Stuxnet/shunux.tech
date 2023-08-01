@@ -64,7 +64,7 @@
 				
 			</div>
 			<span class="text-xs opacity-50"
-				>©{date} Shunux Space (Creadit: This design and work originally belongs to Dennis Smuda)
+				>©{date} Shunux Space (Credit: This design and work originally belongs to Dennis Smuda)
 			</span>
 		</div>
 
