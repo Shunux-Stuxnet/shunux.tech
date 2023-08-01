@@ -22,8 +22,8 @@
 		<span>|</span>
 		<a
 			class="button nav-button"
-			href="/skill"
-			aria-current={path === '/skill' ? true : undefined}
+			href="/blog"
+			aria-current={path === '/blog' ? true : undefined}
 		>
 			<span> Skills </span>
 			<span> ✏️ </span>
