@@ -11,7 +11,7 @@
 		name="description"
 		content="Willing to learn by doing."
 	/>
-	<meta property="og:title" content="Work | Dennis Smuda" />
+	<meta property="og:title" content="Work | Shunux Stuxnet" />
 	<meta
 		property="og:description"
 		content="Willing to learn by doing."
