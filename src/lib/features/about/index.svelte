@@ -59,12 +59,7 @@
 					<span class="emoji">🏐 💨</span>
 				</div>
 			</li>
-			<li>
-				<div>
-					Vegan/Vegetarian Russian 
-					<span class="emoji">😋🥑🍑🥦</span>
-				</div>
-			</li>
+			
 		</ul>
 		<br>
 		<br>
