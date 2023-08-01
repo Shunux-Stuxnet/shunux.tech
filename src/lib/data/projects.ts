@@ -6,6 +6,12 @@ const projects = [
 		description: `CLI tool using <span class="emphasis">Bash Scripting</span>.`
 	},
 	{
+		url: 'https://github.com/Shunux-Stuxnet/GoSecure',
+		headline: `Go<span class="emphasis">Secure</span> 🟥`,
+		subline: `GoSecure is a powerful cyber security tool written in Golang, designed to provide detailed information about any domain without relying on external APIs.`,
+		description: `Backend: <span class="emphasis">Golang</span>, Frontend: HTML-CSS.`
+	},
+	{
 		url: 'https://github.com/Shunux-Stuxnet/ProtogeCell-Golang-Project-',
 		headline: `Protoge<span class="emphasis">Cell</span> 🟥`,
 		subline: `Discover how users can actively verify if a device is reported as lost, report a lost device, and effectively prevent purchasing stolen or lost phones.`,
