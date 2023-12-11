@@ -24,7 +24,7 @@
 			border: 2px solid pink;
 		}
 		.iframe-container {
-			width: 80%; /* Adjust the width as needed */
+			width: 100%; /* Adjust the height as needed */
 			height: 80vh; /* Adjust the height as needed */
 			border: 2px solid pink; /* Same color as the outer box */
 		}
@@ -40,6 +40,6 @@
 
 <div class="ds-prose container">
 	<div class="iframe-container">
-		<iframe src="https://example.me/"></iframe>
+		<iframe src="https://shunux.me/easter"></iframe>
 	</div>
 </div>
