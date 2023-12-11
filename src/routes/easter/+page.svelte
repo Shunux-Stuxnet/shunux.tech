@@ -16,8 +16,8 @@
 			overflow: hidden;
 		}
 		.container {
-			width: calc(100% - 4px); /* Adjusted for 2px gap on each side */
-			height: calc(100% - 4px); /* Adjusted for 2px gap on each side */
+			width: calc(100% - 16px); /* Adjusted for 2px gap on each side */
+			height: calc(100%); /* Adjusted for 2px gap on each side */
 			display: flex;
 			justify-content: center;
 			align-items: center;
@@ -25,8 +25,8 @@
 			margin: 2px; /* 2px margin for the gap */
 		}
 		iframe {
-			width: 150%;
-			height: 200px;
+			width: 200%;
+			height: 1000px;
 			border: none;
 		}
 	</style>
