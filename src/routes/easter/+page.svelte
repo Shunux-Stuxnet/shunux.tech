@@ -16,19 +16,23 @@
 			overflow: hidden;
 		}
 		.container {
-			width: 100%;
-			height: 100%;
+			width: calc(100% - 4px); /* Adjusted for 2px gap on each side */
+			height: calc(100% - 4px); /* Adjusted for 2px gap on each side */
 			display: flex;
 			justify-content: center;
 			align-items: center;
+			border: 2px solid pink;
+			margin: 2px; /* 2px margin for the gap */
 		}
 		iframe {
 			width: 100%;
-			height: 100%;
+			height: 40px;
 			border: none;
 		}
 	</style>
 </svelte:head>
+
+<Header title="My Terminal" subtitle="let's dive in" />
 
 <div class="ds-prose container">
 	<iframe src="https://terminal.shunux.me/"></iframe>
