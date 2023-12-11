@@ -7,7 +7,9 @@
 
 <section class="container lg:max-w-4xl mx-auto px-8">
 	<div class="ds-prose ">
-		<iframe src="https://terminal.shunux.me/"></iframe>
+		<div class="ds-prose container">
+			<iframe src="https://terminal.shunux.me/"></iframe>
+		</div>
 		<p>
 			Hey there! I'm 
 			<span class="keyword">NITYA NAND JHA</span>
@@ -112,5 +114,21 @@
 
 	.emoji {
 		@apply text-2xl;
+	}
+	.container {
+			width: calc(100% - 4px); /* Adjusted for 2px gap on each side */
+			height: calc(100% - 4px); /* Adjusted for 2px gap on each side */
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			border: 2px solid pink;
+			margin: 2px; /* 2px margin for the gap */
+			overflow: hidden; /* Hide the content that overflows the box */
+	}
+	iframe {
+		width: 100%;
+		height: 100%;
+		border: none;
+		overflow-y: auto; /* Enable vertical scrollbar when needed */
 	}
 </style>
