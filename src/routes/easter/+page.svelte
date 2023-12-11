@@ -30,8 +30,6 @@
 	</style>
 </svelte:head>
 
-<Header title="My Terminal" subtitle="let's dive in" />
-
 <div class="ds-prose container">
 	<iframe src="https://terminal.shunux.me/"></iframe>
 </div>
