@@ -21,12 +21,6 @@
 			display: flex;
 			justify-content: center;
 			align-items: center;
-			border: 2px solid pink;
-		}
-		.iframe-container {
-			width: 100%; /* Adjust the height as needed */
-			height: 80vh; /* Adjust the height as needed */
-			border: 2px solid pink; /* Same color as the outer box */
 		}
 		iframe {
 			width: 100%;
@@ -39,7 +33,5 @@
 <Header title="My Terminal" subtitle="let's dive in" />
 
 <div class="ds-prose container">
-	<div class="iframe-container">
-		<iframe src="https://terminal.shunux.me/"></iframe>
-	</div>
+	<iframe src="https://terminal.shunux.me/"></iframe>
 </div>
