@@ -1,134 +1,81 @@
 <script>
-
-	import Header from '$lib/components/header.svelte'
+  import Header from '$lib/components/header.svelte';
 </script>
 
-<Header title="about me  👨🏻‍💻️" subtitle="been where done what?" />
+<Header title="about me 👨🏻‍💻️" subtitle="been where done what?" />
 
 <section class="container lg:max-w-4xl mx-auto px-8">
-	<div class="ds-prose ">
-		<div class="ds-prose container">
-			<iframe src="https://terminal.shunux.me/"></iframe>
-		</div>
-		<p>
-			Hey there! I'm 
-			<span class="keyword">NITYA NAND JHA</span>
-			, a passionate student currently studying at <em>Vellore Institute of Technology</em>.
-			 With a CGPA of <em>8.60</em>, 
-			 I've been immersing myself in the world of 
-			 <span class="color-change font-medium">Java, problem-solving, web pentesting, OSINT, Linux, Bash Scripting, and Golang.</span>
-		</p>
-		<p>
-			To add some extra credibility, I've earned the <span class="color-change font-medium">NSE4</span> certification from <span class="emphasis">Fortinet</span>, specializing in network security. 
-			But it doesn't stop there! I've also been actively involved in various projects and internships, gaining valuable hands-on experience.
-
-			I'm excited to bring my skills and enthusiasm to exciting projects and collaborate with awesome individuals, organizations <span class="opacity-50">... or both!</span>.
-		</p>
-		
-
-		
-		
-
-		<!-- I LIke -->
-		<h2 class="rotated">I like ❤️‍🔥</h2>
-		<ul>
-			<li>
-				<div>
-					bug hunting
-					<span class="emoji">🐛🦉💻🐛 </span>
-				</div>
-			</li>
-			<li>
-				<div>
-					writing rap lyrics
-					<span class="emoji">🎶 🎸 🎹 🥁 🎧</span>
-				</div>
-			</li>
-			<li>
-				<div>
-					learning new things
-					<span class="emoji">🤔 📖 ✨</span>
-				</div>
-			</li>
-			<li>
-				<div>
-					being part of a team
-					<span class="emoji">🎩 🧢 👒 ⛑</span>
-				</div>
-			</li>
-			<li>
-				<div>
-					playing vollyball
-					<span class="emoji">🏐 💨</span>
-				</div>
-			</li>
-			<li>
-				<div>
-					Vegan/Vegetarian Russian 
-					<span class="emoji">😋🥑🍑🥦</span>
-				</div>
-			</li>
-		</ul>
-		<br>
-		<br>
-		<br>
-		<h2 class="rotated">Contact me at 📲 🟢📞</h2>
-		<ul>
-			<li>
-				<div>
-					Email : 
-					<span class="emoji"> <a href="mailto:nitya.nandjha2020@vitbhopal.ac.in"><span class="emphasis">Send me an email</span></a> </span>
-				</div>
-			</li>
-			<li>
-				<div>
-					LinkdIn:
-					<span class="emoji"><a href="https://www.linkedin.com/in/shunux-stuxnet/"> <span class="emphasis">Let's connect on LinkdIn</span></a>
-</span>
-				</div>
-			</li>
-			<li>
-				<div>
-					Github:
-					<span class="emoji"><a href="https://github.com/Shunux-Stuxnet/"><span class="emphasis">Gimme a star on GitHub</span></a>
-</span>
-				</div>
-			</li>
-			<li>
-				<div>
-					Twitter:
-					<span class="emoji"><a href="https://twitter.com/CySecDF"><span class="emphasis">Follow me on Twitter</span></a>
-</span>
-				</div>
-			</li>
-		</ul>
-	</div>
+  <div class="ds-prose">
+    <div class="terminal" id="terminal" draggable="true" on:dragstart="{drag_start}">
+      <section class="terminal__bar">
+        <div class="bar__buttons">
+          <button class="bar__button bar__button__exit">&#10005;</button>
+          <button class="bar__button">&#9472;</button>
+          <button class="bar__button">&#9723;</button>
+        </div>
+        <p class="bar__user">shunux@internet: <span class="current__path"></span></p>
+      </section>
+      <section class="terminal__body" id="terminal__body">
+	            <div class="intro" id="intro">
+	                <pre>
+	        <!-- http://patorjk.com/software/taag/#p=display&f=Big&t=welcome -->
+	
+	        ▒█▀▀▀█ ▒█░▒█ ▒█░▒█ ▒█▄░▒█ ▒█░▒█ ▀▄▒▄▀ 
+	        ░▀▀▀▄▄ ▒█▀▀█ ▒█░▒█ ▒█▒█▒█ ▒█░▒█ ░▒█░░ 
+	        ▒█▄▄▄█ ▒█░▒█ ░▀▄▄▀ ▒█░░▀█ ░▀▄▄▀ ▄▀▒▀▄
+	                                     
+	                                                   
+	                </pre>
+	            </div>
+	            <div class="system__info" id="system__info">
+	                <span id="appVersion"></span>
+	                <span id="cookieEnabled"></span>
+	                <span id="geolocation"></span>
+	                <span id="connection"></span>
+	                <span id="deviceMemory"></span>
+	                <span id="onLine"></span>
+	                <span id="platform"></span>
+	                <span id="userAgent"></span>
+	                <span>Type help to see available commands</span>
+	            </div>
+	            <div class="terminal__prompt">
+	                <span class="terminal__prompt__user">shunux@internet:</span>
+	                <span class="terminal__prompt__location current__path"></span>
+	                <span class="terminal__prompt__bling">$</span>
+	                <input type="text" class="terminal__prompt__cursor" autofocus id="terminal__prompt__cursor"></input>
+	            </div>
+	            <div class="output" id="output"></div>
+	            <div id="denied">
+	                <pre>
+	
+	  ___                              _            _          _ 
+	  / _ \                            | |          (_)        | |
+	 / /_\ \ ___ ___ ___  ___ ___    __| | ___ _ __  _  ___  __| |
+	 |  _  |/ __/ __/ _ \/ __/ __|  / _` |/ _ \ '_ \| |/ _ \/ _` |
+	 | | | | (_| (_|  __/\__ \__ \ | (_| |  __/ | | | |  __/ (_| |
+	 \_| |_/\___\___\___||___/___/  \__,_|\___|_| |_|_|\___|\__,_|
+	                                                              
+	                                                              
+	 
+	                </pre>
+	            </div>
+	        </section>
+    </div>
+    <script src="js/script.js"></script>
+    <script type="text/javascript">
+      (function (c, l, a, r, i, t, y) {
+        c[a] = c[a] || function () { (c[a].q = c[a].q || []).push(arguments) };
+        t = l.createElement(r); t.async = 1; t.src = "https://www.clarity.ms/tag/" + i;
+        y = l.getElementsByTagName(r)[0]; y.parentNode.insertBefore(t, y);
+      })(window, document, "clarity", "script", "6qeyy25et9");
+    </script>
+  </div>
 </section>
 
 <div class="main-padding" />
 
 <style lang="postcss">
-	ul li div {
-		@apply w-full block text-ellipsis;
-	}
-
-	.emoji {
-		@apply text-2xl;
-	}
-	.container {
-			width: calc(100% - 4px); /* Adjusted for 2px gap on each side */
-			height: calc(100% - 4px); /* Adjusted for 2px gap on each side */
-			display: flex;
-			justify-content: center;
-			align-items: center;
-			border: 2px solid pink;
-			margin: 2px; /* 2px margin for the gap */
-			overflow: hidden; /* Hide the content that overflows the box */
-	}
-	iframe {
-		width: 100%;
-		height: 100%;
-		border: none;
-		overflow-y: auto; /* Enable vertical scrollbar when needed */
-	}
+  .terminal__prompt__user {
+    @apply w-full block text-ellipsis;
+  }
 </style>
