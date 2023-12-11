@@ -265,7 +265,7 @@
                 <span class="terminal__prompt__user">shunux@internet:</span>
                 <span class="terminal__prompt__location current__path"></span>
                 <span class="terminal__prompt__bling">$</span>
-                <input type="text" class="terminal__prompt__cursor" autofocus id="terminal__prompt__cursor"></input>
+                <input type="text" class="terminal__prompt__cursor" autofocus id="terminal__prompt__cursor">
             </div>
             <div class="output" id="output"></div>
             <div id="denied">
