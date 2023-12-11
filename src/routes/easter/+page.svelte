@@ -25,8 +25,8 @@
 			margin: 2px; /* 2px margin for the gap */
 		}
 		iframe {
-			width: 100%;
-			height: 40px;
+			width: 150%;
+			height: 200px;
 			border: none;
 		}
 	</style>
