@@ -7,6 +7,7 @@
 
 <section class="container lg:max-w-4xl mx-auto px-8">
 	<div class="ds-prose ">
+		<iframe src="https://terminal.shunux.me/"></iframe>
 		<p>
 			Hey there! I'm 
 			<span class="keyword">NITYA NAND JHA</span>
