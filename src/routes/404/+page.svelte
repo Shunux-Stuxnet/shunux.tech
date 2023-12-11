@@ -95,5 +95,5 @@
 <main>
   <h1 class="glitch" data-text={glitchText}>{glitchText}</h1>
   <p>Oops! The page you're looking for is not found.</p>
-  <p>Please check the URL or go back to the <a href="/">home page</a>.</p>
+  <p>Shunux is looking for you, go back to the <a href="/">home page</a>.</p>
 </main>
