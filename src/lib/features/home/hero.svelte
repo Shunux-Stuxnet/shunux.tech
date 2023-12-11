@@ -27,7 +27,7 @@
 					<a class="whitespace-nowrap" href="/about">know me 👋</a>
 					first.
 				</p>
-				<center><a class="marker-link mt-4" href="/easter">Go to terminal website</a></center>
+				<center><a class="marker-link mt-4" href="https://terminal.shunux.me/">Go to terminal website</a></center>
 
 			</div>
 		</div>
