@@ -1,7 +1,7 @@
 <script>
-	import Header from '$lib/components/header.svelte'
+	import Header from '$lib/components/header.svelte';
 </script>
-<Header title="👀" subtitle="hmmm..." />
+
 <svelte:head>
 	<title>Terminal | Shunux Stuxnet</title>
 	<meta name="description" content="Terminal | Shunux Stuxnet" />
@@ -23,6 +23,11 @@
 			align-items: center;
 			border: 2px solid pink;
 		}
+		.iframe-container {
+			width: 80%; /* Adjust the width as needed */
+			height: 80vh; /* Adjust the height as needed */
+			border: 2px solid pink; /* Same color as the outer box */
+		}
 		iframe {
 			width: 100%;
 			height: 100%;
@@ -34,5 +39,7 @@
 <Header title="My Terminal" subtitle="let's dive in" />
 
 <div class="ds-prose container">
-	<iframe src="https://terminal.shunux.me/"></iframe>
+	<div class="iframe-container">
+		<iframe src="https://example.me/"></iframe>
+	</div>
 </div>
