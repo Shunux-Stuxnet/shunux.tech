@@ -40,6 +40,6 @@
 
 <div class="ds-prose container">
 	<div class="iframe-container">
-		<iframe src="https://shunux.me/easter"></iframe>
+		<iframe src="/easter"></iframe>
 	</div>
 </div>
